@@ -4,7 +4,9 @@
   "description": "API Fetch POC",
   "main": "index.pug",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.pug",
+    "build": "parcel src/build index.pug --no-source-maps",
+    "clean": "rm -rf dist && rm -rf .cache"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/wwwinck/fetch-specimen/issues"
   },
-  "homepage": "https://github.com/wwwinck/fetch-specimen#readme"
+  "homepage": "https://github.com/wwwinck/fetch-specimen#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "pug": "^3.0.0",
+    "sass": "^1.29.0"
+  }
 }
