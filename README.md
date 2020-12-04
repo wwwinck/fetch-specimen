@@ -30,14 +30,6 @@ But the most attentive will notice a small change when the window shrinks. Nothi
 
 
 
-### Built With
-
-* [Parcel](https://parceljs.org/)
-* [SASS](https://sass-lang.com/)
-* [Pug](https://pugjs.org/api/getting-started.html)
-
-
-
 ### Getting Started
 
 ```sh
@@ -46,3 +38,10 @@ $ npm install
 $ npm run dev
 ```
 
+
+
+### Built With
+
+* [Parcel](https://parceljs.org/)
+* [SASS](https://sass-lang.com/)
+* [Pug](https://pugjs.org/api/getting-started.html)
