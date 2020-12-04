@@ -1,0 +1,19 @@
+{
+  "name": "fetch-specimen",
+  "version": "1.0.0",
+  "description": "API Fecth POC",
+  "main": "index.pug",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwinck/fetch-specimen.git"
+  },
+  "author": "Pierre Winckler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wwwinck/fetch-specimen/issues"
+  },
+  "homepage": "https://github.com/wwwinck/fetch-specimen#readme"
+}
