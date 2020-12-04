@@ -1,0 +1,26 @@
+{
+  "name": "fetch-specimen",
+  "version": "1.0.0",
+  "description": "API Fetch POC",
+  "main": "index.pug",
+  "scripts": {
+    "dev": "parcel src/index.pug",
+    "build": "parcel src/build index.pug --no-source-maps",
+    "clean": "rm -rf dist && rm -rf .cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwinck/fetch-specimen.git"
+  },
+  "author": "Pierre Winckler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wwwinck/fetch-specimen/issues"
+  },
+  "homepage": "https://github.com/wwwinck/fetch-specimen#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "pug": "^3.0.0",
+    "sass": "^1.29.0"
+  }
+}

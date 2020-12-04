@@ -1,0 +1,172 @@
+*, :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  color: #2b2e34;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  overflow: hidden;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  margin-top: -100px;
+  border-radius: 3px;
+
+  &-sprite {
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    top: -100px;
+    right: 10px;
+    transition: 0.5s;
+  }
+
+  &-data {
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    margin: 0;
+    transition: 0.5s;
+    text-align: center;
+  }
+
+  &-id {
+    font-size: 30px;
+  }
+
+  &-name {
+    font-weight: bold;
+    font-size: 48px;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.fetch {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  &-btn {
+    width: 110px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 300px;
+    border-radius: 3px;
+    background: #2b2e34;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+/* type colors */
+.bug {
+  background: #adbd21;
+}
+
+.dark {
+  background: #735a4a;
+}
+
+.dragon {
+  background: #8858f6;
+}
+
+.electric {
+  background: #ffc631;
+}
+
+.fairy {
+  background: #e09ae3;
+}
+
+.fighting {
+  background: #a55239;
+}
+
+.fire {
+  background: #f75231;
+}
+
+.flying {
+  background: #9cadf7;
+}
+
+.ghost {
+  background: #6363b5;
+}
+
+.grass {
+  background: #7bce52;
+}
+
+.ground {
+  background: #d6b55a;
+}
+
+.ice {
+  background: #5acee7;
+}
+
+.normal {
+  background: #ada594;
+}
+
+.poison {
+  background: #b55aa5;
+}
+
+.psychic {
+  background: #ff73a5;
+}
+
+.rock {
+  background: #bda55a;
+}
+
+.steel {
+  background: #adadc6;
+}
+
+.water {
+  background: #399cff;
+}
+
+/* media queries */
+@media screen and (min-width: 720px) {
+  .container {
+    background: #fff;
+  }
+  .card {
+    &-sprite {
+      right: -100px;
+    }
+    &-data {
+      bottom: 50px;
+      margin: 0 0 0 60px;
+      text-align: left;
+    }
+  }
+}
