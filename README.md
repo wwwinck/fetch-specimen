@@ -41,8 +41,8 @@ But the most attentive will notice a small change when the window shrinks. Nothi
 ### Getting Started
 
 ```sh
-git clone https://github.com/wwwinck/fetch-specimen.git
-npm install
-npm run dev
+$ git clone https://github.com/wwwinck/fetch-specimen.git
+$ npm install
+$ npm run dev
 ```
 
